@@ -1,0 +1,28 @@
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\bin\Debug\DB.mdf
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\bin\Debug\DB_log.ldf
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\bin\Debug\Banking Operations App.exe.config
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\bin\Debug\Banking Operations App.exe
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\bin\Debug\Banking Operations App.pdb
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\bin\Debug\BIZ.dll
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\bin\Debug\DAL.dll
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\bin\Debug\BIZ.pdb
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\bin\Debug\DAL.pdb
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Banking Operations App.csproj.AssemblyReference.cache
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\MainWindow.g.cs
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\App.g.cs
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Banking Operations App_Content.g.cs
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Banking Operations App_MarkupCompile.cache
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Banking Operations App_MarkupCompile.lref
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\MainWindow.baml
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Banking Operations App.g.resources
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Banking_Operations_App.Properties.Resources.resources
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Banking Operations App.csproj.GenerateResource.cache
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Banking Operations App.csproj.CoreCompileInputs.cache
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Banking .2995C630.Up2Date
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Banking Operations App.exe
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Banking Operations App.pdb
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\App.baml
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Under_Construction.g.cs
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Under_Construction.baml
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\New Account.g.cs
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\New Account.baml

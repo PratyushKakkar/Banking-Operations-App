@@ -1,0 +1,93 @@
+﻿<Application x:Class="Banking_Operations_App.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Banking_Operations_App"
+             StartupUri="MainWindow.xaml">
+     
+     <!-- Defining Styles under Resources Application wide -->
+    <Application.Resources>
+
+         <!-- App-->
+          <Style TargetType="Window">
+               <Setter Property="Foreground" Value="WhiteSmoke"/>
+               <Setter Property="Background" Value="#FFFCFAFA"/>
+          </Style>
+         
+         <!--Text Box-->
+          <Style TargetType="TextBox">
+               <Setter Property="Background" Value="#FFFCFAFA"/>
+               <Setter Property="FontSize" Value="14"/>
+               <Setter Property="Height" Value="30"/>
+               <Setter Property="Foreground" Value="Black"/>
+               <Setter Property="Margin" Value="5"/>
+               <Setter Property="Padding" Value="4"/>
+               <Setter Property="BorderBrush" Value="Black"/>
+               <Setter Property="BorderThickness" Value="1"/>
+               <!--The ToolTip property is used to display additional information to the user when they hover over a control. -->
+               <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=(AutomationProperties.HelpText)}"/>
+          </Style>
+
+          <!--PasswordBox-->
+          <Style TargetType="PasswordBox">
+              <Setter Property="Template">
+                  <Setter.Value>
+                      <ControlTemplate TargetType="PasswordBox">
+                          <Border Background="{TemplateBinding Background}" 
+                                  BorderBrush="{TemplateBinding BorderBrush}" 
+                                  BorderThickness="{TemplateBinding BorderThickness}" 
+                                  CornerRadius="5" Padding="{TemplateBinding Padding}">
+                              <ScrollViewer x:Name="PART_ContentHost" />
+                          </Border>
+                      </ControlTemplate>
+                  </Setter.Value>
+              </Setter>
+              <Setter Property="Background" Value="#FFFCFAFA"/>
+              <Setter Property="FontSize" Value="14"/>
+              <Setter Property="Height" Value="35"/>
+              <Setter Property="Foreground" Value="Black"/>
+              <Setter Property="Margin" Value="5"/>
+              <Setter Property="Padding" Value="4"/>
+              <Setter Property="BorderBrush" Value="Black"/>
+              <Setter Property="BorderThickness" Value="1"/>
+          </Style>
+
+          <!--Button-->
+          <Style TargetType="Button">
+               <Setter Property="FontSize" Value="20"/>
+               <Setter Property="Foreground" Value="White"/>
+               <Setter Property="Background" Value="#00856a"/>
+               <Setter Property="Margin" Value="5"/>
+               <Setter Property="Padding" Value="10"/>
+               <Setter Property="BorderBrush" Value="Gray"/>
+               <Setter Property="BorderThickness" Value="1"/>
+          </Style>
+         
+         <!-- Menu bar-->
+          <Style TargetType="Menu">
+               <Setter Property="Background" Value="#d10e83"/>
+               <Setter Property="Margin" Value="0,0,0,397"/>
+               <Setter Property="Foreground" Value="WhiteSmoke"/>
+          </Style>
+
+          <Style TargetType="MenuItem">
+               <Setter Property="Background" Value="#d10e83"/>
+               <Setter Property="Foreground" Value="WhiteSmoke"/>
+          </Style>
+         
+         <!-- Label -->
+          <Style TargetType="Label">
+               <Setter Property="FontSize" Value="18" />
+               <Setter Property="FontFamily" Value="Georgia"/>
+          </Style>
+
+         <!--Border-->
+          <Style TargetType="Border">
+               <Setter Property="CornerRadius" Value="5" />
+          </Style>
+         
+         <!-- Combo Box -->
+          <Style TargetType="ComboBox">
+               <Setter Property="Height" Value="30"/>
+          </Style>
+     </Application.Resources>
+</Application>

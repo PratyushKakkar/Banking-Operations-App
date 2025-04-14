@@ -1,0 +1,6 @@
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\DAL\bin\Debug\DAL.dll
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\DAL\bin\Debug\DAL.pdb
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\DAL\obj\Debug\DAL.dll
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,9 @@
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\BIZ\bin\Debug\BIZ.dll
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\BIZ\bin\Debug\BIZ.pdb
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\BIZ\bin\Debug\DAL.dll
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\BIZ\bin\Debug\DAL.pdb
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\BIZ\obj\Debug\BIZ.csproj.AssemblyReference.cache
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\BIZ\obj\Debug\BIZ.csproj.Up2Date
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\BIZ\obj\Debug\BIZ.dll
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\BIZ\obj\Debug\BIZ.pdb

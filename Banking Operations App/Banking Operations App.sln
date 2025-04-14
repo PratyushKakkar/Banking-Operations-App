@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking Operations App", "Banking Operations App.csproj", "{BC24747A-7819-4455-95B1-D4950E9EE68C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIZ", "..\BIZ\BIZ.csproj", "{86EA7DED-3B6E-47A7-9580-CC7F614033FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\DAL\DAL.csproj", "{A704FA2A-F405-46E6-B8CD-33A264B5823C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC24747A-7819-4455-95B1-D4950E9EE68C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC24747A-7819-4455-95B1-D4950E9EE68C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC24747A-7819-4455-95B1-D4950E9EE68C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC24747A-7819-4455-95B1-D4950E9EE68C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86EA7DED-3B6E-47A7-9580-CC7F614033FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86EA7DED-3B6E-47A7-9580-CC7F614033FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86EA7DED-3B6E-47A7-9580-CC7F614033FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86EA7DED-3B6E-47A7-9580-CC7F614033FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A704FA2A-F405-46E6-B8CD-33A264B5823C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A704FA2A-F405-46E6-B8CD-33A264B5823C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A704FA2A-F405-46E6-B8CD-33A264B5823C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A704FA2A-F405-46E6-B8CD-33A264B5823C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53AFBC1E-771B-40BE-891B-3C6F006DD4AF}
+	EndGlobalSection
+EndGlobal
