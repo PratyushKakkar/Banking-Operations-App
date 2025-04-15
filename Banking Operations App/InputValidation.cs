@@ -82,5 +82,11 @@ namespace Banking_Operations_App
           {
                return !string.IsNullOrEmpty(input) && input.All(c => char.IsDigit(c) || c == '.');
           }
+
+          //Checks if the input is a valid amount, only numbers and dot.
+          public static bool IsValidSortCode(string input)
+          {
+               return !string.IsNullOrEmpty(input) && input.All(char.IsDigit) && input.Length == 6;
+          }
      }
 }

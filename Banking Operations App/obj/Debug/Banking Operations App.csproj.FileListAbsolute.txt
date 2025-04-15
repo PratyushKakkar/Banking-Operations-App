@@ -28,3 +28,7 @@ C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Oper
 C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\New Account.baml
 C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Edit Account.g.cs
 C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Edit Account.baml
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\UserTransaction.g.cs
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\UserTransaction.baml
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Transfer Amount.g.cs
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Transfer Amount.baml

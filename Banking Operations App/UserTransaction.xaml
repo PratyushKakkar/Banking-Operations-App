@@ -1,0 +1,29 @@
+﻿<Window x:Class="Banking_Operations_App.UserTransaction"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Banking_Operations_App"
+        mc:Ignorable="d"
+        Title="UserTransaction" Height="549" Width="523" Loaded="Window_Loaded">
+     <Grid>
+          <Label x:Name="lblUserTransaction" FontWeight="Bold" FontSize="25" Width="523" Height="48" VerticalAlignment="Top" HorizontalAlignment="Center" Content="Account Transaction"/>
+          <Label x:Name="lblFirstName" Content="First Name:" HorizontalAlignment="Left" Margin="56,122,0,0" VerticalAlignment="Top"/>
+          <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Margin="276,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextChanged="txtFirstName_TextChanged" Background="#FFE5E5E5" IsReadOnly="True"/>
+          <Label x:Name="lblSurname" Content="Surname:" HorizontalAlignment="Left" Margin="57,168,0,0" VerticalAlignment="Top"/>
+          <TextBox x:Name="txtSurname" HorizontalAlignment="Left" Margin="276,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" Background="#FFE5E5E5" IsReadOnly="True"/>
+          <Label x:Name="lblAccountNum" Content="Account Number:" HorizontalAlignment="Left" Margin="56,75,0,0" VerticalAlignment="Top"/>
+          <ComboBox x:Name="cboAccountNumber" HorizontalAlignment="Left" Margin="276,75,0,0" VerticalAlignment="Top" Width="201" SelectionChanged="cboAccountNumber_SelectionChanged"/>
+          <RadioButton x:Name="rdoDeposit" Content="Deposit" HorizontalAlignment="Left" Margin="86,297,0,0" VerticalAlignment="Top" IsChecked="True" FontSize="18" IsEnabled="False"/>
+          <RadioButton x:Name="rdoWithdrawl" Content="Withdrawl" HorizontalAlignment="Left" Margin="82,353,0,0" VerticalAlignment="Top" FontSize="18" IsEnabled="False"/>
+          <TextBox x:Name="txtAmount" HorizontalAlignment="Left" Margin="322,375,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16" FontWeight="Bold" TextChanged="txtAmount_TextChanged"/>
+          <TextBox x:Name="txtEuro" HorizontalAlignment="Left" Margin="292,375,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="24" Text="€" FontSize="16" FontWeight="Bold"/>
+          <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Margin="97,447,0,0" VerticalAlignment="Top" IsEnabled="False" Click="btnSubmit_Click"/>
+          <Label x:Name="lblUpdateValidation" Foreground="Green" HorizontalAlignment="Left" Margin="250,451,0,0" VerticalAlignment="Top" Height="32" Width="202" FontSize="15" Visibility="Collapsed"/>
+          <TextBox x:Name="txtCurrentBalance" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16" FontWeight="Bold" TextChanged="txtAmount_TextChanged" Margin="322,286,0,0" IsEnabled="False" Background="#FFE5E5E5"/>
+          <TextBox x:Name="txtEuro_Copy" HorizontalAlignment="Left" Margin="292,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="24" Text="€" FontSize="16" FontWeight="Bold" Background="#FFE5E5E5"/>
+          <Label x:Name="lblCurrentBalance" Content="Current Balance:" HorizontalAlignment="Left" Margin="292,245,0,0" VerticalAlignment="Top"/>
+          <Label x:Name="lblAmount" Content="Enter Amount:" HorizontalAlignment="Left" Margin="292,340,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+
+     </Grid>
+</Window>

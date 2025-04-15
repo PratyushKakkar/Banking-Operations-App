@@ -7,7 +7,7 @@ using DAL;
 
 namespace BIZ
 {
-     public class NewAccount
+     public class UserAccount
      {
 
           AccountData ad = new AccountData();
@@ -24,8 +24,8 @@ namespace BIZ
           public decimal InitialBalance { get; set; }
           public decimal OverdraftLimit { get; set; }
 
-          //Constructor
-          public NewAccount(string firstName, string surname, string email, string phone, string address, string city, string county, string accountType, int accountNum, decimal initialBalance, decimal overdraftLimit)
+          //Constructor to create a new account
+          public UserAccount(string firstName, string surname, string email, string phone, string address, string city, string county, string accountType, int accountNum, decimal initialBalance, decimal overdraftLimit)
           {
                FirstName = firstName;
                Surname = surname;
@@ -40,7 +40,8 @@ namespace BIZ
                OverdraftLimit = overdraftLimit;
           }
 
-          public NewAccount(int accountNum, string email, string phone, string address, string city, string county)
+          //Constructor to update an existing account
+          public UserAccount(int accountNum, string email, string phone, string address, string city, string county)
           {
                AccountNum = accountNum;
                Email = email;

@@ -3,30 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC24747A-7819-4455-95B1-D4950E9EE68C}|Banking Operations App.csproj|c:\\users\\anku\\desktop\\class notes\\year 2\\oop\\banking-operations-app\\banking operations app\\edit account.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BC24747A-7819-4455-95B1-D4950E9EE68C}|Banking Operations App.csproj|solutionrelative:edit account.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC24747A-7819-4455-95B1-D4950E9EE68C}|Banking Operations App.csproj|c:\\users\\anku\\desktop\\class notes\\year 2\\oop\\banking-operations-app\\banking operations app\\new account.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC24747A-7819-4455-95B1-D4950E9EE68C}|Banking Operations App.csproj|solutionrelative:new account.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC24747A-7819-4455-95B1-D4950E9EE68C}|Banking Operations App.csproj|c:\\users\\anku\\desktop\\class notes\\year 2\\oop\\banking-operations-app\\banking operations app\\edit account.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC24747A-7819-4455-95B1-D4950E9EE68C}|Banking Operations App.csproj|solutionrelative:edit account.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86EA7DED-3B6E-47A7-9580-CC7F614033FF}|..\\BIZ\\BIZ.csproj|c:\\users\\anku\\desktop\\class notes\\year 2\\oop\\banking-operations-app\\biz\\newaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A704FA2A-F405-46E6-B8CD-33A264B5823C}|..\\DAL\\DAL.csproj|c:\\users\\anku\\desktop\\class notes\\year 2\\oop\\banking-operations-app\\dal\\accountdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC24747A-7819-4455-95B1-D4950E9EE68C}|Banking Operations App.csproj|C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BC24747A-7819-4455-95B1-D4950E9EE68C}|Banking Operations App.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC24747A-7819-4455-95B1-D4950E9EE68C}|Banking Operations App.csproj|C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\inputvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC24747A-7819-4455-95B1-D4950E9EE68C}|Banking Operations App.csproj|solutionrelative:inputvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC24747A-7819-4455-95B1-D4950E9EE68C}|Banking Operations App.csproj|c:\\users\\anku\\desktop\\class notes\\year 2\\oop\\banking-operations-app\\banking operations app\\view transactions.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BC24747A-7819-4455-95B1-D4950E9EE68C}|Banking Operations App.csproj|solutionrelative:view transactions.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,100 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit Account.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\Edit Account.xaml.cs",
-              "RelativeDocumentMoniker": "Edit Account.xaml.cs",
-              "ToolTip": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\Edit Account.xaml.cs",
-              "RelativeToolTip": "Edit Account.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAkwIYAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T23:41:45.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "New Account.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\New Account.xaml.cs",
-              "RelativeDocumentMoniker": "New Account.xaml.cs",
-              "ToolTip": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\New Account.xaml.cs",
-              "RelativeToolTip": "New Account.xaml.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAAAKgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T01:30:26.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NewAccount.cs",
-              "DocumentMoniker": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\BIZ\\NewAccount.cs",
-              "RelativeDocumentMoniker": "..\\BIZ\\NewAccount.cs",
-              "ToolTip": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\BIZ\\NewAccount.cs",
-              "RelativeToolTip": "..\\BIZ\\NewAccount.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAABAwDwAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T01:17:02.868Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Edit Account.xaml",
-              "DocumentMoniker": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\Edit Account.xaml",
-              "RelativeDocumentMoniker": "Edit Account.xaml",
-              "ToolTip": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\Edit Account.xaml",
-              "RelativeToolTip": "Edit Account.xaml",
+              "Title": "View Transactions.xaml",
+              "DocumentMoniker": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\View Transactions.xaml",
+              "RelativeDocumentMoniker": "View Transactions.xaml",
+              "ToolTip": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\View Transactions.xaml",
+              "RelativeToolTip": "View Transactions.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-14T23:41:27.424Z",
+              "WhenOpened": "2025-04-15T21:57:44.033Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AccountData.cs",
-              "DocumentMoniker": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\DAL\\AccountData.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\AccountData.cs",
-              "ToolTip": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\DAL\\AccountData.cs",
-              "RelativeToolTip": "..\\DAL\\AccountData.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAA/wFkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T21:09:54.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-14T22:50:50.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InputValidation.cs",
-              "DocumentMoniker": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\InputValidation.cs",
-              "RelativeDocumentMoniker": "InputValidation.cs",
-              "ToolTip": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\InputValidation.cs",
-              "RelativeToolTip": "InputValidation.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAA5wAgAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T19:58:44.409Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }

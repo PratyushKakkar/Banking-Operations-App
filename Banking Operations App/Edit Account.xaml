@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Banking_Operations_App"
         mc:Ignorable="d"
-        Title="Edit_Account" Height="1198" Width="1213" Loaded="Window_Loaded">
+        Title="Edit_Account" Height="776" Width="550" Loaded="Window_Loaded">
      <Grid>
-          <Label x:Name="lblEditAccount" Content="Edit Account" HorizontalAlignment="Left" Margin="139,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="25"/>
+          <Label x:Name="lblEditAccount" Content="Edit Account" FontWeight="Bold" FontSize="25" Width="550" Height="48" VerticalAlignment="Top" HorizontalAlignment="Center"/>
           <Label x:Name="lblFirstName" Content="First Name:" HorizontalAlignment="Left" Margin="56,122,0,0" VerticalAlignment="Top"/>
           <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Margin="276,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextChanged="txtFirstName_TextChanged" IsReadOnly="True" Background="#FFE5E5E5"/>
           <Label x:Name="lblSurname" Content="Surname:" HorizontalAlignment="Left" Margin="57,168,0,0" VerticalAlignment="Top"/>
@@ -15,7 +15,7 @@
           <Label x:Name="lblEmail" Content="Email:" HorizontalAlignment="Left" Margin="57,220,0,0" VerticalAlignment="Top"/>
           <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="276,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextChanged="txtEmail_TextChanged"/>
           <Label x:Name="lblPhone" Content="Phone:" HorizontalAlignment="Left" Margin="57,271,0,0" VerticalAlignment="Top"/>
-          <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Margin="329,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" TextChanged="txtPhone_TextChanged" BorderBrush="#FFFC0707"/>
+          <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Margin="276,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextChanged="txtPhone_TextChanged"/>
           <Label x:Name="lblAddress" Content="Address:" HorizontalAlignment="Left" Margin="57,320,0,0" VerticalAlignment="Top"/>
           <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Margin="276,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextChanged="txtAddress1_TextChanged"/>
           <Label x:Name="lblCity" Content="City:" HorizontalAlignment="Left" Margin="57,367,0,0" VerticalAlignment="Top"/>
@@ -33,7 +33,6 @@
           <Label x:Name="lblUpdateValidation" Content="Account Updated" Foreground="Green" HorizontalAlignment="Left" Margin="275,676,0,0" VerticalAlignment="Top" Height="32" Width="202" FontSize="15" Visibility="Collapsed"/>
           <Label x:Name="lblOverdraftLimit" Content="Overdraft Limit:" HorizontalAlignment="Left" Margin="57,598,0,0" VerticalAlignment="Top"/>
           <TextBox x:Name="txtOverdraftLimit" HorizontalAlignment="Left" Margin="275,600,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" TextInput="txtOverdraftLimit_TextInput" TextChanged="txtOverdraftLimit_TextChanged"/>
-          <TextBox x:Name="txtCountryCode" HorizontalAlignment="Left" Margin="275,274,0,0" TextWrapping="Wrap" Text="+353" VerticalAlignment="Top" Width="49" IsReadOnly="True"/>
           <Label x:Name="lblAccountNum" Content="Account Number:" HorizontalAlignment="Left" Margin="56,75,0,0" VerticalAlignment="Top"/>
           <ComboBox x:Name="cboAccountNumber" HorizontalAlignment="Left" Margin="276,75,0,0" VerticalAlignment="Top" Width="201" SelectionChanged="cboAccountNumber_SelectionChanged"/>
 

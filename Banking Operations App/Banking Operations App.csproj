@@ -78,8 +78,17 @@
       <DependentUpon>New Account.xaml</DependentUpon>
     </Compile>
     <Compile Include="Tables.cs" />
+    <Compile Include="Transfer Amount.xaml.cs">
+      <DependentUpon>Transfer Amount.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Under_Construction.xaml.cs">
       <DependentUpon>Under_Construction.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserTransaction.xaml.cs">
+      <DependentUpon>UserTransaction.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View Transactions.xaml.cs">
+      <DependentUpon>View Transactions.xaml</DependentUpon>
     </Compile>
     <Page Include="Edit Account.xaml">
       <SubType>Designer</SubType>
@@ -101,7 +110,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Transfer Amount.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Under_Construction.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserTransaction.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View Transactions.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -149,7 +149,7 @@ namespace Banking_Operations_App
                decimal overdraftLimit = rdoCurrent.IsChecked == true ? Decimal.Parse(txtOverdraftLimit.Text) : 0.0m;
 
                //Creating New Account
-               NewAccount na = new NewAccount(firstName, surname, email, phone, address, city, county, accountType, accountNum, initialBalance, overdraftLimit);
+               UserAccount na = new UserAccount(firstName, surname, email, phone, address, city, county, accountType, accountNum, initialBalance, overdraftLimit);
                na.addAccount();
 
                //Display Success Message

@@ -144,7 +144,7 @@ namespace Banking_Operations_App
                string city = txtCity.Text;
                string county = cboCounty.SelectedItem.ToString();
 
-               NewAccount ac = new NewAccount(accountNum, email, phone, address, city, county);
+               UserAccount ac = new UserAccount(accountNum, email, phone, address, city, county);
                ac.updateAccount();
 
                lblUpdateValidation.Visibility = Visibility.Visible;

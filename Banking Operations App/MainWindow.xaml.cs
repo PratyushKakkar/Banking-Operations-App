@@ -115,5 +115,25 @@ namespace Banking_Operations_App
                Edit_Account ea = new Edit_Account();
                ea.Show();
           }
-     }
+
+          private void mnuDepositFunds_Click(object sender, RoutedEventArgs e)
+          {
+              UserTransaction ut = new UserTransaction();
+               ut.rdoDeposit.IsChecked = true;
+               ut.Show();
+          }
+
+          private void mnuWithdrawFunds_Click(object sender, RoutedEventArgs e)
+          {
+               UserTransaction ut = new UserTransaction();
+               ut.rdoWithdrawl.IsChecked = true;
+               ut.Show();
+          }
+
+          private void mnuTransferFunds_Click(object sender, RoutedEventArgs e)
+          {
+               Transfer_Amount ta = new Transfer_Amount();
+               ta.Show();
+          }
+    }
 }

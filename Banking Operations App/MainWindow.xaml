@@ -20,9 +20,9 @@
                <MenuItem x:Name="mnuAccount" Header="Account" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5,5,0,0" FontWeight="Bold">
                     <MenuItem x:Name="mnuNewAccount" Header="New Account" Click="mnuNewAccount_Click"/>
                     <MenuItem x:Name="mnuEditAccount" Header="Edit Account" Click="mnuEditAccount_Click"/>
-                    <MenuItem x:Name="mnuDepositFunds" Header="Deposit Funds"/>
-                    <MenuItem x:Name="mnuWithdrawFunds" Header="Withdraw Funds"/>
-                    <MenuItem x:Name="mnuTransferFunds" Header="Transfer Funds"/>
+                    <MenuItem x:Name="mnuDepositFunds" Header="Deposit Funds" Click="mnuDepositFunds_Click"/>
+                    <MenuItem x:Name="mnuWithdrawFunds" Header="Withdraw Funds" Click="mnuWithdrawFunds_Click"/>
+                    <MenuItem x:Name="mnuTransferFunds" Header="Transfer Funds" Click="mnuTransferFunds_Click"/>
                     <MenuItem x:Name="mnuViewTransactions" Header="View Transactions"/>
                </MenuItem>
           </Menu>
