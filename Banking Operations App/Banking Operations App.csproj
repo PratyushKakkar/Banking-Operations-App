@@ -70,12 +70,21 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Edit Account.xaml.cs">
+      <DependentUpon>Edit Account.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InputValidation.cs" />
     <Compile Include="New Account.xaml.cs">
       <DependentUpon>New Account.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Tables.cs" />
     <Compile Include="Under_Construction.xaml.cs">
       <DependentUpon>Under_Construction.xaml</DependentUpon>
     </Compile>
+    <Page Include="Edit Account.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

@@ -89,5 +89,9 @@
           <Style TargetType="ComboBox">
                <Setter Property="Height" Value="30"/>
           </Style>
+
+          <Style TargetType="RadioButton">
+               <Setter Property="FontSize" Value="14"/>
+          </Style>
      </Application.Resources>
 </Application>

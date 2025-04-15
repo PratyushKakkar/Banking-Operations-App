@@ -5,33 +5,51 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Banking_Operations_App"
         mc:Ignorable="d"
-        Title="New_Account" Height="752" Width="570">
+        Title="New_Account" Height="806" Width="693" Loaded="Window_Loaded">
      <Grid>
-          <Label x:Name="lblNewAccount" Content="New Account" HorizontalAlignment="Left" Margin="13,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="25"/>
+          <Label x:Name="lblNewAccount" Content="New Account" HorizontalAlignment="Left" Margin="139,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="25"/>
           <Label x:Name="lblFirstName" Content="First Name:" HorizontalAlignment="Left" Margin="50,74,0,0" VerticalAlignment="Top"/>
-          <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Margin="270,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+          <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Margin="270,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextChanged="txtFirstName_TextChanged"/>
           <Label x:Name="lblSurname" Content="Surname:" HorizontalAlignment="Left" Margin="51,120,0,0" VerticalAlignment="Top"/>
-          <TextBox HorizontalAlignment="Left" Margin="270,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+          <TextBox x:Name="txtSurname" HorizontalAlignment="Left" Margin="270,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextChanged="TextBox_TextChanged"/>
           <Label x:Name="lblEmail" Content="Email:" HorizontalAlignment="Left" Margin="51,172,0,0" VerticalAlignment="Top"/>
-          <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="270,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+          <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="270,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextChanged="txtEmail_TextChanged"/>
           <Label x:Name="lblPhone" Content="Phone:" HorizontalAlignment="Left" Margin="51,223,0,0" VerticalAlignment="Top"/>
-          <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Margin="270,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+          <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Margin="323,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" TextChanged="txtPhone_TextChanged"/>
           <Label x:Name="lblAddress1" Content="Address Line 1:" HorizontalAlignment="Left" Margin="51,272,0,0" VerticalAlignment="Top"/>
-          <TextBox x:Name="txtAddress1" HorizontalAlignment="Left" Margin="270,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+          <TextBox x:Name="txtAddress1" HorizontalAlignment="Left" Margin="270,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextChanged="txtAddress1_TextChanged"/>
           <Label x:Name="lblAddress2" Content="Address Line 2:" HorizontalAlignment="Left" Margin="50,322,0,0" VerticalAlignment="Top"/>
-          <TextBox x:Name="txtAddress2" HorizontalAlignment="Left" Margin="270,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+          <TextBox x:Name="txtAddress2" HorizontalAlignment="Left" Margin="270,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextChanged="txtAddress2_TextChanged"/>
           <Label x:Name="lblCity" Content="City:" HorizontalAlignment="Left" Margin="51,371,0,0" VerticalAlignment="Top"/>
-          <TextBox x:Name="txtCity" HorizontalAlignment="Left" Margin="270,371,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+          <TextBox x:Name="txtCity" HorizontalAlignment="Left" Margin="270,371,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextChanged="txtCity_TextChanged"/>
           <Label x:Name="lblCounty" Content="County:" HorizontalAlignment="Left" Margin="51,422,0,0" VerticalAlignment="Top"/>
-          <ComboBox x:Name="cboCounty" HorizontalAlignment="Left" Margin="270,422,0,0" VerticalAlignment="Top" Width="201"/>
+          <ComboBox x:Name="cboCounty" HorizontalAlignment="Left" Margin="270,422,0,0" VerticalAlignment="Top" Width="201" SelectionChanged="cboCounty_SelectionChanged"/>
           <Label x:Name="lblAccountNum" Content="Account Number:" HorizontalAlignment="Left" Margin="50,507,0,0" VerticalAlignment="Top"/>
-          <TextBox x:Name="txtAccountNum" HorizontalAlignment="Left" Margin="270,507,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+          <TextBox x:Name="txtAccountNum" HorizontalAlignment="Left" Margin="270,507,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextChanged="txtAccountNum_TextChanged"/>
           <Label x:Name="lblSortCode" Content="Sort Code:" HorizontalAlignment="Left" Margin="51,556,0,0" VerticalAlignment="Top"/>
           <TextBox x:Name="txtSortCode" HorizontalAlignment="Left" Margin="270,556,0,0" TextWrapping="Wrap" Text="101010" VerticalAlignment="Top" Width="201" IsReadOnly="True" Background="#FFE5E5E5"/>
           <Label x:Name="lblInitialBalance" Content="Initial Balance:" HorizontalAlignment="Left" Margin="50,602,0,0" VerticalAlignment="Top"/>
-          <TextBox x:Name="txtInitialBalance" HorizontalAlignment="Left" Margin="270,602,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
-          <RadioButton x:Name="rdoCurrent" Content="Current" HorizontalAlignment="Left" Margin="285,473,0,0" VerticalAlignment="Top"/>
-          <RadioButton x:Name="rdoSavings" Content="Savings" HorizontalAlignment="Left" Margin="370,473,0,0" VerticalAlignment="Top"/>
+          <TextBox x:Name="txtInitialBalance" HorizontalAlignment="Left" Margin="270,602,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextChanged="txtInitialBalance_TextChanged"/>
+          <RadioButton x:Name="rdoCurrent" Content="Current" HorizontalAlignment="Left" Margin="285,473,0,0" VerticalAlignment="Top" IsChecked="True" Click="rdoCurrent_Click"/>
+          <RadioButton x:Name="rdoSavings" Content="Savings" HorizontalAlignment="Left" Margin="370,473,0,0" VerticalAlignment="Top" Click="rdoSavings_Click"/>
+          <Label x:Name="lblAccountType" Content="Account Type:" HorizontalAlignment="Left" Margin="51,465,0,0" VerticalAlignment="Top"/>
+          <Button x:Name="btnCreateAccount" Content="Create Account" HorizontalAlignment="Left" Margin="57,711,0,0" VerticalAlignment="Top" IsEnabled="False" Click="btnCreateAccount_Click"/>
+          <Label x:Name="lblLoginValidation" Content="Account Created Successfully!" Foreground="Green" HorizontalAlignment="Left" Margin="269,728,0,0" VerticalAlignment="Top" Height="32" Width="202" FontSize="15"/>
+          <Label x:Name="lblInvalidMsg_FirstName" Content="Incorrect character!" HorizontalAlignment="Left" Margin="495,78,0,0" VerticalAlignment="Top" Height="22" Width="172" FontSize="12" Foreground="#FFFF0B0B" Visibility="Collapsed"/>
+          <Label x:Name="lblInvalidMsg_Surname" Content="Incorrect character!" HorizontalAlignment="Left" Margin="495,127,0,0" VerticalAlignment="Top" Height="22" Width="172" FontSize="12" Foreground="#FFFF0B0B" Visibility="Collapsed"/>
+          <Label x:Name="lblInvalidMsg_Email" Content="Invalid Email!" HorizontalAlignment="Left" Margin="495,178,0,0" VerticalAlignment="Top" Height="22" Width="172" FontSize="12" Foreground="#FFFF0B0B" Visibility="Collapsed"/>
+          <Label x:Name="lblInvalidMsg_Phone" Content="Inavlid Phone!" HorizontalAlignment="Left" Margin="495,229,0,0" VerticalAlignment="Top" Height="22" Width="172" FontSize="12" Foreground="#FFFF0B0B" Visibility="Collapsed"/>
+          <Label x:Name="lblInvalidMsg_Address1" Content="Invalid Address!" HorizontalAlignment="Left" Margin="495,280,0,0" VerticalAlignment="Top" Height="22" Width="172" FontSize="12" Foreground="#FFFF0B0B" Visibility="Collapsed"/>
+          <Label x:Name="lblInvalidMsg_Address2" Content="Invalid Address!" HorizontalAlignment="Left" Margin="495,326,0,0" VerticalAlignment="Top" Height="22" Width="172" FontSize="12" Foreground="#FFFF0B0B" Visibility="Collapsed"/>
+          <Label x:Name="lblInvalidMsg_City" Content="Invalid City Name!" HorizontalAlignment="Left" Margin="495,375,0,0" VerticalAlignment="Top" Height="22" Width="172" FontSize="12" Foreground="#FFFF0B0B" Visibility="Collapsed"/>
+          <Label x:Name="lblInvalidMsg_County" Content="Select a County!" HorizontalAlignment="Left" Margin="495,426,0,0" VerticalAlignment="Top" Height="22" Width="172" FontSize="12" Foreground="#FFFF0B0B" Visibility="Collapsed"/>
+          <Label x:Name="lblInvalidMsg_AccType" Content="Select a Type!" HorizontalAlignment="Left" Margin="495,469,0,0" VerticalAlignment="Top" Height="22" Width="172" FontSize="12" Foreground="#FFFF0B0B" Visibility="Collapsed"/>
+          <Label x:Name="lblInvalidMsg_AccNum" Content="8 Digits only!" HorizontalAlignment="Left" Margin="495,511,0,0" VerticalAlignment="Top" Height="22" Width="172" FontSize="12" Foreground="#FFFF0B0B" Visibility="Collapsed"/>
+          <Label x:Name="lblOverdraftLimit" Content="Overdraft Limit:" HorizontalAlignment="Left" Margin="51,650,0,0" VerticalAlignment="Top"/>
+          <TextBox x:Name="txtOverdraftLimit" HorizontalAlignment="Left" Margin="269,652,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" TextInput="txtOverdraftLimit_TextInput" TextChanged="txtOverdraftLimit_TextChanged"/>
+          <Label x:Name="lblInvalidMsg_IniBal" Content="Numbers only!" HorizontalAlignment="Left" Margin="495,606,0,0" VerticalAlignment="Top" Height="22" Width="172" FontSize="12" Foreground="#FFFF0B0B" Visibility="Collapsed"/>
+          <Label x:Name="lblInvalidMsg_Overdraft" Content="Numbers only!" HorizontalAlignment="Left" Margin="495,654,0,0" VerticalAlignment="Top" Height="22" Width="172" FontSize="12" Foreground="#FFFF0B0B" Visibility="Collapsed"/>
+          <TextBox x:Name="txtCountryCode" HorizontalAlignment="Left" Margin="269,226,0,0" TextWrapping="Wrap" Text="+353" VerticalAlignment="Top" Width="49" IsReadOnly="True"/>
 
      </Grid>
 </Window>

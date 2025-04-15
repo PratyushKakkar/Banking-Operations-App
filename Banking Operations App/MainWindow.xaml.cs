@@ -21,7 +21,7 @@ namespace Banking_Operations_App
      /// Interaction logic for MainWindow.xaml
      /// </summary>
      public partial class MainWindow : Window
-     {
+     {          
           public MainWindow()
           {
                InitializeComponent();
@@ -94,7 +94,6 @@ namespace Banking_Operations_App
           {
                //Login Button Disabled until Valid Credentials are entered
                btnLogin.IsEnabled = false;
-               mnuAccount.Visibility = Visibility.Hidden; 
           }
 
           private void mnuExit_Click(object sender, RoutedEventArgs e)
@@ -108,6 +107,13 @@ namespace Banking_Operations_App
           {
               New_Account na = new New_Account();
                na.Show();
+          }
+
+          //Open Edit Account Window
+          private void mnuEditAccount_Click(object sender, RoutedEventArgs e)
+          {
+               Edit_Account ea = new Edit_Account();
+               ea.Show();
           }
      }
 }
