@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="New_Account" Height="806" Width="693" Loaded="Window_Loaded">
      <Grid>
-          <Label x:Name="lblNewAccount" Content="New Account" HorizontalAlignment="Left" Margin="139,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="25"/>
+          <Label x:Name="lblNewAccount" Content="New Account" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Background="#FF7F2B7B" Foreground="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" Padding="10,10,10,10" FontWeight="Bold" FontSize="25" Width="673"/>
           <Label x:Name="lblFirstName" Content="First Name:" HorizontalAlignment="Left" Margin="50,74,0,0" VerticalAlignment="Top"/>
           <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Margin="270,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextChanged="txtFirstName_TextChanged"/>
           <Label x:Name="lblSurname" Content="Surname:" HorizontalAlignment="Left" Margin="51,120,0,0" VerticalAlignment="Top"/>

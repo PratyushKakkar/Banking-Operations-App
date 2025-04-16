@@ -64,13 +64,13 @@
          
          <!-- Menu bar-->
           <Style TargetType="Menu">
-               <Setter Property="Background" Value="#d10e83"/>
+               <Setter Property="Background" Value="#7f2b7b"/>
                <Setter Property="Margin" Value="0,0,0,397"/>
                <Setter Property="Foreground" Value="WhiteSmoke"/>
           </Style>
 
           <Style TargetType="MenuItem">
-               <Setter Property="Background" Value="#d10e83"/>
+               <Setter Property="Background" Value="#7f2b7b"/>
                <Setter Property="Foreground" Value="WhiteSmoke"/>
           </Style>
          
@@ -88,10 +88,32 @@
          <!-- Combo Box -->
           <Style TargetType="ComboBox">
                <Setter Property="Height" Value="30"/>
+               <Setter Property="FontSize" Value="18"/>
+               <Setter Property="FontFamily" Value="Georgia"/>
           </Style>
-
+          
+         <!-- Radio Buttons -->
           <Style TargetType="RadioButton">
                <Setter Property="FontSize" Value="14"/>
+          </Style>
+
+          <!-- Data Grid View-->
+          <Style x:Key="DataGridColumnHeaderStyle" TargetType="DataGridColumnHeader">
+               <Setter Property="Background" Value="#7f2b7b"/>
+               <Setter Property="Foreground" Value="White"/>
+               <Setter Property="FontWeight" Value="SemiBold"/>
+               <Setter Property="Padding" Value="10,5"/>
+               <Setter Property="HorizontalContentAlignment" Value="Center"/>
+          </Style>
+
+          <Style x:Key="DataGrid" TargetType="DataGrid">
+               <Setter Property="Background" Value="#7f2b7b"/>
+          </Style>
+         
+          <Style x:Key="DataGridCellStyle" TargetType="TextBlock">
+               <Setter Property="Padding" Value="10,5"/>
+               <Setter Property="VerticalAlignment" Value="Center"/>
+               <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
           </Style>
      </Application.Resources>
 </Application>

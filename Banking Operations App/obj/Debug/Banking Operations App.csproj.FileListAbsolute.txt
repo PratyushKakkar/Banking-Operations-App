@@ -32,3 +32,7 @@ C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Oper
 C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\UserTransaction.baml
 C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Transfer Amount.g.cs
 C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\Transfer Amount.baml
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\View Transactions.g.cs
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\View Transactions.baml
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\ViewXML.g.cs
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\obj\Debug\ViewXML.baml

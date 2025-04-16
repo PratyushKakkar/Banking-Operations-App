@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Edit_Account" Height="776" Width="550" Loaded="Window_Loaded">
      <Grid>
-          <Label x:Name="lblEditAccount" Content="Edit Account" FontWeight="Bold" FontSize="25" Width="550" Height="48" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+          <Label x:Name="lblEditAccount" Content="Edit Account" FontWeight="Bold" FontSize="25" Width="530" Height="49" VerticalAlignment="Top" HorizontalAlignment="Center" Background="#FF7F2B7B" Foreground="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" Padding="10,10,10,10" Margin="0,7,0,0"/>
           <Label x:Name="lblFirstName" Content="First Name:" HorizontalAlignment="Left" Margin="56,122,0,0" VerticalAlignment="Top"/>
           <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Margin="276,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextChanged="txtFirstName_TextChanged" IsReadOnly="True" Background="#FFE5E5E5"/>
           <Label x:Name="lblSurname" Content="Surname:" HorizontalAlignment="Left" Margin="57,168,0,0" VerticalAlignment="Top"/>
@@ -32,7 +32,7 @@
           <Button x:Name="btnUpdateAccount" Content="Update Account" HorizontalAlignment="Left" Margin="63,659,0,0" VerticalAlignment="Top" IsEnabled="False" Click="btnCreateAccount_Click"/>
           <Label x:Name="lblUpdateValidation" Content="Account Updated" Foreground="Green" HorizontalAlignment="Left" Margin="275,676,0,0" VerticalAlignment="Top" Height="32" Width="202" FontSize="15" Visibility="Collapsed"/>
           <Label x:Name="lblOverdraftLimit" Content="Overdraft Limit:" HorizontalAlignment="Left" Margin="57,598,0,0" VerticalAlignment="Top"/>
-          <TextBox x:Name="txtOverdraftLimit" HorizontalAlignment="Left" Margin="275,600,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" TextInput="txtOverdraftLimit_TextInput" TextChanged="txtOverdraftLimit_TextChanged"/>
+          <TextBox x:Name="txtOverdraftLimit" HorizontalAlignment="Left" Margin="275,600,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202" TextInput="txtOverdraftLimit_TextInput" TextChanged="txtOverdraftLimit_TextChanged" IsReadOnly="True" Background="#FFE5E5E5"/>
           <Label x:Name="lblAccountNum" Content="Account Number:" HorizontalAlignment="Left" Margin="56,75,0,0" VerticalAlignment="Top"/>
           <ComboBox x:Name="cboAccountNumber" HorizontalAlignment="Left" Margin="276,75,0,0" VerticalAlignment="Top" Width="201" SelectionChanged="cboAccountNumber_SelectionChanged"/>
 

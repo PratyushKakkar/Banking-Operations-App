@@ -11,6 +11,8 @@ namespace DAL
      public class TransactionData : DAO
      {
           SqlCommand cmd;
+          SqlDataAdapter da;
+          DataTable dt;
 
           public void updateBalance(int accountNum, decimal balance)
           {
@@ -40,6 +42,37 @@ namespace DAL
 
                cmd.ExecuteNonQuery();
                CloseCon();
+          }
+
+          public DataTable GetTransactionHistory()
+          {
+               cmd = OpenCon().CreateCommand();
+               cmd.CommandType = CommandType.StoredProcedure;
+               cmd.CommandText = "uspGetTransactionHistory";
+
+                da = new SqlDataAdapter(cmd);
+                dt = new DataTable();
+
+               da.Fill(dt);
+               CloseCon();
+
+               return dt;
+          }
+
+          public DataTable GetUserHistory(int accountNum)
+          {
+               cmd = OpenCon().CreateCommand();
+               cmd.CommandType = CommandType.StoredProcedure;
+               cmd.CommandText = "uspGetUserHistory";
+
+               cmd.Parameters.AddWithValue("@AccountNumber", accountNum);
+               da = new SqlDataAdapter(cmd);
+               dt = new DataTable();
+
+               da.Fill(dt);
+               CloseCon();
+
+               return dt;
           }
 
      }

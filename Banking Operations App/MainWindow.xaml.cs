@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -53,6 +54,9 @@ namespace Banking_Operations_App
 
                     //Menu Item Account visible when logged in
                     mnuAccount.Visibility = Visibility.Visible;
+
+                    //DataGrid Visibile when logged in
+                    dgvAllAccData.Visibility = Visibility.Visible;
                }
 
                else
@@ -94,6 +98,12 @@ namespace Banking_Operations_App
           {
                //Login Button Disabled until Valid Credentials are entered
                btnLogin.IsEnabled = false;
+
+               //Insert All Account Data into DataGrid
+               AccountData ad = new AccountData();
+               DataTable dt = ad.PopulateAccNums();
+               dgvAllAccData.ItemsSource = dt.DefaultView;
+
           }
 
           private void mnuExit_Click(object sender, RoutedEventArgs e)
@@ -134,6 +144,20 @@ namespace Banking_Operations_App
           {
                Transfer_Amount ta = new Transfer_Amount();
                ta.Show();
+          }
+
+          private void mnuViewTransactions_Click(object sender, RoutedEventArgs e)
+          {
+               View_Transactions vt = new View_Transactions();
+               vt.Show();
+          }
+
+          public void RefreshDataGrid()
+          {
+               //Refresh DataGrid
+               AccountData ad = new AccountData();
+               DataTable dt = ad.PopulateAccNums();
+               dgvAllAccData.ItemsSource = dt.DefaultView;
           }
     }
 }

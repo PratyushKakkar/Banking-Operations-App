@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="UserTransaction" Height="549" Width="523" Loaded="Window_Loaded">
      <Grid>
-          <Label x:Name="lblUserTransaction" FontWeight="Bold" FontSize="25" Width="523" Height="48" VerticalAlignment="Top" HorizontalAlignment="Center" Content="Account Transaction"/>
+          <Label x:Name="lblUserTransaction" FontWeight="Bold" FontSize="25" Width="503" Height="49" VerticalAlignment="Top" HorizontalAlignment="Center" Background="#FF7F2B7B" Foreground="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" Padding="10,10,10,10" Content="Account Transaction" Margin="0,7,0,0"/>
           <Label x:Name="lblFirstName" Content="First Name:" HorizontalAlignment="Left" Margin="56,122,0,0" VerticalAlignment="Top"/>
           <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Margin="276,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" TextChanged="txtFirstName_TextChanged" Background="#FFE5E5E5" IsReadOnly="True"/>
           <Label x:Name="lblSurname" Content="Surname:" HorizontalAlignment="Left" Margin="57,168,0,0" VerticalAlignment="Top"/>

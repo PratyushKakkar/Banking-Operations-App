@@ -7,7 +7,7 @@
        mc:Ignorable="d"
        Title="Transfer_Amount" Height="754" Width="586" Loaded="Window_Loaded">
      <Grid>
-          <Label x:Name="lblTransfer" FontWeight="Bold" FontSize="25" Width="523" Height="48" VerticalAlignment="Top" HorizontalAlignment="Left" Content="Transfer"/>
+          <Label x:Name="lblTransfer" FontWeight="Bold" FontSize="25" Width="566" Height="43" VerticalAlignment="Top" Background="#FF7F2B7B" Foreground="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" Padding="10,10,10,10" HorizontalAlignment="Center" Content="Transfer" Margin="0,5,0,0"/>
           <GroupBox x:Name="grpSourceAccount" Header="Source Account" Margin="32,48,38,393" Foreground="#FFD10E83" BorderBrush="#FF090909" FontSize="18"/>
           <Label x:Name="lblAccountNum_source" Content="Account Number:" HorizontalAlignment="Left" Margin="59,85,0,0" VerticalAlignment="Top" FontSize="14"/>
           <ComboBox Width="201" VerticalAlignment="Top" SelectionChanged="cboAccountNumber_SelectionChanged" x:Name="cboAccountNumber" Margin="60,116,0,0" HorizontalAlignment="Left" Height="30"/>

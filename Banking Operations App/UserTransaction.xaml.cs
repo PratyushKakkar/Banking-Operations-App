@@ -96,6 +96,10 @@ namespace Banking_Operations_App
                PopulateDetails();
 
                txtAmount.Clear();
+
+               //Refresh the DataGrid in MainWindow
+               var mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+               mainWindow?.RefreshDataGrid();
           }
 
           public void PopulateDetails()

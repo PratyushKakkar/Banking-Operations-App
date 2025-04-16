@@ -182,6 +182,10 @@ namespace Banking_Operations_App
                lblInvalidMsg_AccNum.Visibility = Visibility.Collapsed;
                lblInvalidMsg_IniBal.Visibility = Visibility.Collapsed;
                lblInvalidMsg_Overdraft.Visibility = Visibility.Collapsed;
+
+               //Refresh the DataGrid in MainWindow
+               var mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+               mainWindow?.RefreshDataGrid();
           }
      }
 }

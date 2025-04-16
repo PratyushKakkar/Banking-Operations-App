@@ -90,6 +90,9 @@
     <Compile Include="View Transactions.xaml.cs">
       <DependentUpon>View Transactions.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewXML.xaml.cs">
+      <DependentUpon>ViewXML.xaml</DependentUpon>
+    </Compile>
     <Page Include="Edit Account.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -123,6 +126,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View Transactions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewXML.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

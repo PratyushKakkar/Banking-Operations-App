@@ -19,8 +19,9 @@ using System.Security.Cryptography.X509Certificates;
 namespace Banking_Operations_App
 {
      /// <summary>
-     /// Interaction logic for Transfer_Amount.xaml
+     /// Interaction logic for Transfer_Amount.xaml 
      /// </summary>
+     
      public partial class Transfer_Amount : Window
      {
           public Transfer_Amount()
@@ -40,11 +41,13 @@ namespace Banking_Operations_App
                {
                     cboAccountNumber_Destination.Visibility = Visibility.Visible;
                     txtAccountNumber_Destination.Visibility = Visibility.Hidden;
+                    txtSortCode_Destination.IsEnabled = false;
                }
                else
                {
                     cboAccountNumber_Destination.Visibility = Visibility.Hidden;
                     txtAccountNumber_Destination.Visibility = Visibility.Visible;
+                    txtSortCode_Destination.IsEnabled = true;
                }
 
                //Populate Destination Account Numbers
@@ -125,6 +128,10 @@ namespace Banking_Operations_App
                lblInvalidMsg_TransferAmount.Visibility = Visibility.Hidden;
 
                PopSourceDetails();
+
+               //Refresh the DataGrid in MainWindow
+               var mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+               mainWindow?.RefreshDataGrid();
           }
      }
 }

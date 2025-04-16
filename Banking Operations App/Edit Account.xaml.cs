@@ -159,6 +159,10 @@ namespace Banking_Operations_App
                txtOverdraftLimit.Text = string.Empty;
                cboCounty.SelectedIndex = -1;
 
+               //Refresh MainWindow DataGrid
+               var mainWindow = Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+               mainWindow?.RefreshDataGrid();
+
           }
      }
 }
