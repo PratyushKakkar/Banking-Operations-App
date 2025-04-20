@@ -1,4 +1,4 @@
-<Project Sdk="MSTest.Sdk/3.6.4">
+﻿<Project Sdk="MSTest.Sdk/3.6.4">
 
   <PropertyGroup>
     <TargetFramework>net8.0-windows</TargetFramework>
@@ -7,6 +7,11 @@
     <Nullable>enable</Nullable>
     <UseVSTest>true</UseVSTest>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.4" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Banking Operations App\Banking Operations App.csproj" />

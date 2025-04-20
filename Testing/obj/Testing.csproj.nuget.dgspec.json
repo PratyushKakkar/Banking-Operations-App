@@ -138,6 +138,14 @@
               "target": "Package",
               "version": "[17.11.1, )",
               "versionOverride": "[17.11.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
             }
           },
           "imports": [

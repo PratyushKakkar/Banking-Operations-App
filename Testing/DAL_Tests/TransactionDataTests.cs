@@ -1,5 +1,4 @@
 ﻿using DAL;
-using Microsoft.Extensions.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Data;
 using System.Data.SqlClient;
