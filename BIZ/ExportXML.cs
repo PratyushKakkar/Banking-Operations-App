@@ -11,11 +11,17 @@ namespace BIZ
 {
      public class ExportXML
      {
+          TransactionData td;
+          AccountData ad;
+
+          public ExportXML()
+          {
+               td = new TransactionData();
+               ad = new AccountData();
+          }
+
           public XDocument GetUserDataAsXDocument(int accountNumber)
           {
-               TransactionData td = new TransactionData();
-               AccountData ad = new AccountData();
-
                DataTable userDetails, userTransactions;
 
                //Populate User Details from User table
@@ -48,6 +54,13 @@ namespace BIZ
                        )
                    )
                );
+          }
+
+          //To Run Tests ONLY
+          public ExportXML(string connectionString)
+          {
+               td = new TransactionData(connectionString);
+               ad = new AccountData(connectionString);
           }
      }
 

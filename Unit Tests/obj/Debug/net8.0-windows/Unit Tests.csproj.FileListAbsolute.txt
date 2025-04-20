@@ -1,0 +1,8 @@
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Unit Tests\obj\Debug\net8.0-windows\Unit Tests.csproj.AssemblyReference.cache
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Unit Tests\obj\Debug\net8.0-windows\Unit Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Unit Tests\obj\Debug\net8.0-windows\Unit Tests.gentestingplatformentrypointinputcache.cache
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Unit Tests\obj\Debug\net8.0-windows\Unit Tests.genautoregisteredextensionsinputcache.cache
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Unit Tests\obj\Debug\net8.0-windows\Unit Tests.AssemblyInfoInputs.cache
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Unit Tests\obj\Debug\net8.0-windows\Unit Tests.AssemblyInfo.cs
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Unit Tests\obj\Debug\net8.0-windows\Unit Tests.csproj.CoreCompileInputs.cache
+C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Unit Tests\obj\Debug\net8.0-windows\Unit Tests.sourcelink.json

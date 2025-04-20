@@ -14,10 +14,11 @@ namespace BIZ
           public decimal OverdraftLimit { get; set; }
           public decimal Amount { get; set; }
 
-          TransactionData td = new TransactionData();
+          TransactionData td;
 
           public UserTransactions(int accountNum, decimal balance, decimal overdraftLimit, decimal amount)
           {
+               td = new TransactionData();
                AccountNum = accountNum;
                Balance = balance;
                OverdraftLimit = overdraftLimit;
@@ -38,7 +39,7 @@ namespace BIZ
 
           public bool Withdraw()
           {
-               if ((Balance + OverdraftLimit) < Amount && Amount > 0)
+               if ((Balance + OverdraftLimit) < Amount || Amount < 0)
                {
                     return false; // Insufficient funds
                }
@@ -49,7 +50,15 @@ namespace BIZ
                     return true; // Withdrawal successful
                }
           }
+
+          //To Run Tests ONLY
+          public UserTransactions(string con, int accountNum, decimal balance, decimal overdraftLimit, decimal amount)
+          {
+               td = new TransactionData(con);
+               AccountNum = accountNum;
+               Balance = balance;
+               OverdraftLimit = overdraftLimit;
+               Amount = amount;
+          }
      }
-
-
 }

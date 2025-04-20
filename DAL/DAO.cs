@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Configuration;
+using System.Security.Claims;
 
 //Data Access Layer
 namespace DAL
@@ -19,6 +20,12 @@ namespace DAL
           public DAO()
           {
                con = new SqlConnection(ConfigurationManager.ConnectionStrings["DBCon"].ConnectionString);
+          }
+
+          //To Run Tests ONLY
+          public DAO(string connectionString)
+          {
+               con = new SqlConnection(connectionString);
           }
 
           public SqlConnection OpenCon()

@@ -9,8 +9,7 @@ namespace BIZ
 {
      public class UserAccount
      {
-
-          AccountData ad = new AccountData();
+          AccountData ad;
 
           public string FirstName { get; set; }
           public string Surname { get; set; }
@@ -27,6 +26,7 @@ namespace BIZ
           //Constructor to create a new account
           public UserAccount(string firstName, string surname, string email, string phone, string address, string city, string county, string accountType, int accountNum, decimal initialBalance, decimal overdraftLimit)
           {
+               ad = new AccountData();
                FirstName = firstName;
                Surname = surname;
                Email = email;
@@ -43,6 +43,7 @@ namespace BIZ
           //Constructor to update an existing account
           public UserAccount(int accountNum, string email, string phone, string address, string city, string county)
           {
+               ad = new AccountData();
                AccountNum = accountNum;
                Email = email;
                Phone = phone;
@@ -60,6 +61,35 @@ namespace BIZ
           public void updateAccount()
           {
                ad.updateAccount(AccountNum, Email, Phone, Address, City, County);
+          }
+
+          //To Run Tests ONLY
+          public UserAccount(string connectionString, string firstName, string surname, string email, string phone, string address, string city, string county, string accountType, int accountNum, decimal initialBalance, decimal overdraftLimit)
+          {
+               ad = new AccountData(connectionString);
+               FirstName = firstName;
+               Surname = surname;
+               Email = email;
+               Phone = phone;
+               Address = address;
+               City = city;
+               County = county;
+               AccountType = accountType;
+               AccountNum = accountNum;
+               InitialBalance = initialBalance;
+               OverdraftLimit = overdraftLimit;
+          }
+
+          // To Run Tests ONLY 
+          public UserAccount(string connectionString, int accountNum, string email, string phone, string address, string city, string county)
+          {
+               ad = new AccountData(connectionString);
+               AccountNum = accountNum;
+               Email = email;
+               Phone = phone;
+               Address = address;
+               City = city;
+               County = county;
           }
      }
 }

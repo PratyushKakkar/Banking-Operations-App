@@ -11,6 +11,8 @@ namespace DAL
      public class AccountData : DAO
      {
 
+          public AccountData() { }
+
           SqlCommand cmd;
           SqlDataAdapter da;
           DataTable dt;
@@ -85,6 +87,11 @@ namespace DAL
 
                cmd.ExecuteNonQuery();
                CloseCon();
+          }
+
+          //To Run Tests ONLY
+          public AccountData(string connectionString) : base(connectionString)
+          {
           }
      }
 }

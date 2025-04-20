@@ -22,8 +22,14 @@ namespace BIZ
           public decimal Balance { get; set; }
           public decimal OverdraftLimit { get; set; }
 
+         private AccountData ad;
+          private TransactionData td;
+
           public Transfer(int destinationSortCode, int destinationAccountNum, decimal transferAmount, string description, int sourceAccountID)
           {
+               ad = new AccountData();
+               td = new TransactionData();
+
                DestinationSortCode = destinationSortCode;
                DestinationAccountNum = destinationAccountNum;
                TransferAmount = transferAmount;
@@ -37,14 +43,12 @@ namespace BIZ
                DataTable dt;
 
                //Retrieve Source Account Details
-               AccountData ad = new AccountData();
                dt = ad.PopulateAccountDetails(SourceAccountID);
                Balance = decimal.Parse(dt.Rows[0]["Balance"].ToString());
                OverdraftLimit = decimal.Parse(dt.Rows[0]["OverdraftLimit"].ToString());
 
                //Check if sufficient funds are available
-               TransactionData td = new TransactionData();
-                if((Balance + OverdraftLimit) < TransferAmount && TransferAmount > 0)
+                if((Balance + OverdraftLimit) < TransferAmount || TransferAmount < 0)
                     return false; // Insufficient funds
                else
                {
@@ -69,6 +73,19 @@ namespace BIZ
                td.AddTransferRecord(DestinationSortCode, DestinationAccountNum, TransferAmount, Description, TransferDateTime, SourceAccountID);
 
                return true; // Transfer successful
+          }
+
+          //To Run Tests ONLY
+          public Transfer(string con, int destinationSortCode, int destinationAccountNum, decimal transferAmount, string description, int sourceAccountID)
+          {
+               ad = new AccountData(con);
+               td = new TransactionData(con);
+               DestinationSortCode = destinationSortCode;
+               DestinationAccountNum = destinationAccountNum;
+               TransferAmount = transferAmount;
+               Description = description;
+               TransferDateTime = DateTime.Now;
+               SourceAccountID = sourceAccountID;
           }
      }
 }

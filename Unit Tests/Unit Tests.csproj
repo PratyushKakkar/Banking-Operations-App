@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	 <PropertyGroup>
+		  <TargetFramework>net8.0-windows</TargetFramework>
+		  <RootNamespace>Unit_Tests</RootNamespace>
+		  <LangVersion>latest</LangVersion>
+		  <ImplicitUsings>enable</ImplicitUsings>
+		  <Nullable>enable</Nullable>
+	 </PropertyGroup>
+
+	 <!-- Required NuGet Packages for MSTest -->
+	 <ItemGroup>
+		  <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+		  <PackageReference Include="MSTest.TestAdapter" Version="3.8.3" />
+		  <PackageReference Include="MSTest.TestFramework" Version="3.8.3" />
+		  <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.4" />
+	 </ItemGroup>
+
+	 <!-- Code Coverage with Coverlet -->
+	 <ItemGroup>
+		  <PackageReference Include="coverlet.collector" Version="6.0.2" />
+	 </ItemGroup>
+
+	 <!-- Project References -->
+	 <ItemGroup>
+		  <ProjectReference Include="..\Banking Operations App\Banking Operations App.csproj" />
+		  <ProjectReference Include="..\BIZ\BIZ.csproj" />
+		  <ProjectReference Include="..\DAL\DAL.csproj" />
+	 </ItemGroup>
+
+	 <!-- Ensure App.config is copied correctly -->
+	 <ItemGroup>
+		  <None Update="App.config">
+			   <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			   <TargetPath>UnitTests.dll.config</TargetPath>
+		  </None>
+	 </ItemGroup>
+
+</Project>

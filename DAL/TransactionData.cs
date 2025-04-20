@@ -14,6 +14,11 @@ namespace DAL
           SqlDataAdapter da;
           DataTable dt;
 
+          public TransactionData()
+          {
+
+          }
+
           public void updateBalance(int accountNum, decimal balance)
           {
                cmd = OpenCon().CreateCommand();
@@ -75,5 +80,9 @@ namespace DAL
                return dt;
           }
 
+          //To Run Tests ONLY
+          public TransactionData(string connectionString) : base(connectionString)
+          {
+          }
      }
 }
