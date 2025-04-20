@@ -1,53 +1,41 @@
 ﻿using DAL;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Configuration;
+using Microsoft.Extensions.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Data;
 using System.Data.SqlClient;
+using System.Reflection;
 
-namespace UnitTests.DAL_Tests
+namespace Unit_Testing.DAO_Tests 
 {
-          [TestClass]
-          public class DAOTests
+     [TestClass]
+     public class DAOTests
+     {
+          private DAO _dao;
+
+          [TestInitialize]
+          public void Setup()
           {
-               private DAO _dao;
 
-               [TestInitialize]
-               public void Setup()
-               {
-                    _dao = new DAO();
-               }
-
-               [TestMethod]
-               public void OpenCon_ShouldOpenSqlConnection()
-               {
-                    // Act
-                    var connection = _dao.OpenCon();
-
-                    // Assert
-                    Assert.IsNotNull(connection);
-                    Assert.AreEqual(ConnectionState.Open, connection.State);
-
-                    // Clean up
-                    _dao.CloseCon();
-               }
-
-               [TestMethod]
-               public void CloseCon_ShouldCloseSqlConnection()
-               {
-                    // Arrange
-                    var connection = _dao.OpenCon();
-
-                    // Act
-                    _dao.CloseCon();
-
-                    // Assert
-                    Assert.AreEqual(ConnectionState.Closed, connection.State);
-               }
+               string con = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Anku\Desktop\Class Notes\Year 2\OOP\Banking-Operations-App\Banking Operations App\DB.mdf;Integrated Security=True";
+               _dao = new DAO(con);
           }
-     }
+          
+         
 
+          [TestMethod]
+          public void OpenCon_ShouldOpenConnection_WhenClosed()
+          {
+               var connection = _dao.OpenCon();
+               Assert.AreEqual(ConnectionState.Open, connection.State);
+          }
+
+          [TestMethod]
+          public void CloseCon_ShouldCloseConnection_WhenOpen()
+          {
+               var connection = _dao.OpenCon(); // Ensure connection is open
+               _dao.CloseCon();
+               Assert.AreEqual(ConnectionState.Closed, connection.State);
+          }
+
+     }
+}
