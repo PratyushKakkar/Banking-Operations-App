@@ -17,6 +17,7 @@ namespace Banking_Operations_App
                else
                     return false;
           }
+
           //Login Form Password Validation
           public static bool ValidatePassword(string password)
           {

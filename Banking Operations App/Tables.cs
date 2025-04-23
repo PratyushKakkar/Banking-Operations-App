@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Banking_Operations_App
 {
-     internal class Tables
+     public class Tables
      {
           public enum Counties
           {

@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC24747A-7819-4455-95B1-D4950E9EE68C}|Banking Operations App.csproj|c:\\users\\anku\\desktop\\class notes\\year 2\\oop\\banking-operations-app\\banking operations app\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BC24747A-7819-4455-95B1-D4950E9EE68C}|Banking Operations App.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\Banking Operations App\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-22T17:05:14.285Z",
+              "EditorCaption": ""
             }
           ]
         }

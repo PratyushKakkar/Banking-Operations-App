@@ -17,7 +17,7 @@
                     <MenuItem x:Name="mnuLogin" Header="Login"/>
                     <MenuItem x:Name="mnuExit" Header="Exit" Click="mnuExit_Click"/>
                </MenuItem>
-               <MenuItem x:Name="mnuAccount" Header="Account" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5,5,0,0" FontWeight="Bold">
+               <MenuItem x:Name="mnuAccount" Header="Account" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5,5,0,0" FontWeight="Bold" Visibility="Hidden">
                     <MenuItem x:Name="mnuNewAccount" Header="New Account" Click="mnuNewAccount_Click"/>
                     <MenuItem x:Name="mnuEditAccount" Header="Edit Account" Click="mnuEditAccount_Click"/>
                     <MenuItem x:Name="mnuDepositFunds" Header="Deposit Funds" Click="mnuDepositFunds_Click"/>

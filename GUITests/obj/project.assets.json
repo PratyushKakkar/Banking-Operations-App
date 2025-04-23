@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "MSTest.Analyzers >= 3.6.4",
+      "MSTest.TestAdapter >= 3.6.4",
+      "MSTest.TestFramework >= 3.6.4",
+      "Microsoft.NET.Test.Sdk >= 17.11.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Anku\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\GUITests\\GUITests.csproj",
+      "projectName": "GUITests",
+      "projectPath": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\GUITests\\GUITests.csproj",
+      "packagesPath": "C:\\Users\\Anku\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anku\\Desktop\\Class Notes\\Year 2\\OOP\\Banking-Operations-App\\GUITests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Anku\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "MSTest.Analyzers": {
+            "target": "Package",
+            "version": "[3.6.4, )",
+            "versionOverride": "[3.6.4, )"
+          },
+          "MSTest.TestAdapter": {
+            "target": "Package",
+            "version": "[3.6.4, )",
+            "versionOverride": "[3.6.4, )"
+          },
+          "MSTest.TestFramework": {
+            "target": "Package",
+            "version": "[3.6.4, )",
+            "versionOverride": "[3.6.4, )"
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[17.11.1, )",
+            "versionOverride": "[17.11.1, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\r\n  An error occurred while sending the request.\r\n  The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.\r\n  The remote certificate is invalid according to the validation procedure.",
+      "libraryId": "System.Numerics.Vectors"
+    }
+  ]
+}

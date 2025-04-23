@@ -23,7 +23,7 @@ namespace Testing.BIZ_Tests
           public void AddAccount_ShouldInsertAccountIntoDatabase()
           {
                // Arrange
-               int testAccountNum = 12345678;
+               int testAccountNum = 01234567;
                UserAccount user = new UserAccount(
                    con,
                    "Test",
@@ -54,7 +54,7 @@ namespace Testing.BIZ_Tests
           public void UpdateAccount_ShouldModifyAccountDetailsInDatabase()
           {
                //Arrange
-               int testAccountNum = 12345678;
+               int testAccountNum = 01234567;
                string updatedEmail = "updateduser@example.com";
                string updatedPhone = "9999999999";
                string updatedAddress = "456 Updated Street";

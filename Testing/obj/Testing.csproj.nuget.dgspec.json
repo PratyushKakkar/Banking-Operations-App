@@ -139,6 +139,10 @@
               "version": "[17.11.1, )",
               "versionOverride": "[17.11.1, )"
             },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[9.0.4, )"
@@ -146,6 +150,10 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.9.0, )"
+            },
+            "System.Windows.Extensions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             }
           },
           "imports": [
