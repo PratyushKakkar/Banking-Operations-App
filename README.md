@@ -1,5 +1,5 @@
 
-# 🏦 Banking Operations Application
+# 🏦 Banking Operations Application 🏦
 
 A secure, multi-tiered **banking desktop application** designed for internal staff at a financial institution to manage everyday banking operations. This application was developed as part of the **Object-Oriented Programming** (OOP) module.
 
